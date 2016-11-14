@@ -27,15 +27,15 @@
 				if($oper == '>' || $oper == '<'){
 					if($oper == '>'){
 						if($price >=  $KeyPrice){
-							array_push($result,$book['category'],$book->title,$book->author,$book->publisher,$book->publish_date,$book->price);
+							array_push($result,$book['category'],$book->title,$book->author,$book->publisher,$book->publish_date,$book->price,$book->baht,$book->thickness);
 						}
 					}elseif($oper == '<'){
 						if($price <=  $KeyPrice){
-							array_push($result,$book['category'],$book->title,$book->author,$book->publisher,$book->publish_date,$book->price);
+							array_push($result,$book['category'],$book->title,$book->author,$book->publisher,$book->publish_date,$book->price,$book->baht,$book->thickness);
 						}
 					}
 				}elseif(strncasecmp($category ,$keyword , strlen($keyword)) == 0 || (strncasecmp($title ,$keyword , strlen($keyword)) == 0) || (strncasecmp($author ,$keyword , strlen($keyword)) == 0)){
-					array_push($result,$book['category'],$book->title,$book->author,$book->publisher,$book->publish_date,$book->price);
+					array_push($result,$book['category'],$book->title,$book->author,$book->publisher,$book->publish_date,$book->price,$book->baht,$book->thickness);
 				}
 			}  
 			return $result;
@@ -48,14 +48,16 @@
 			'publish_dateVar'=>'xsd:string',
 			'typeVar'=>'xsd:string',
 			'languageVar'=>'xsd:string',
-			'priceVar'=>'xsd:string'
+			'priceVar'=>'xsd:string',
+			'priceVarTH'=>'xsd:string',
+			'thick'=>'xsd:string'
 			);
 		$server->register(
 			'AddXML',
 			$addVar,
 			array('return'=>'xsd:string')
 			);
-		function AddXML($titleVar,$authorVar,$publisherVar,$publish_dateVar,$typeVar,$languageVar,$priceVar){
+		function AddXML($titleVar,$authorVar,$publisherVar,$publish_dateVar,$typeVar,$languageVar,$priceVar,$priceVarTH,$thick){
 			$file = 'BookStore.xml';
 			$xml = simplexml_load_file($file);
 
@@ -68,7 +70,9 @@
 			$book->addChild('publish_date', $publish_dateVar);
 			$book->addChild('type', $typeVar);
 			$book->addChild('language',$languageVar);
-			$book->addChild('price',$priceVar);			
+			$book->addChild('price',$priceVar);
+			$book->addChild('baht',$priceVarTH);
+			$book->addChild('thickness',$thick);
 			$xml->asXML($file);	
 			
 			return "Add (name) <b>$titleVar</b> Success";
@@ -122,7 +126,34 @@
 			$output = $xml->asXML('BookStore.xml');		
 			return "Delete (name) <b>$mark_name</b> Success!";
 		} 
+		$editVarTH = array(
+			'from_name'=>'xsd:string',
+			'priceVarTH'=>'xsd:string',
+			'thick'=>'xsd:string'
+			);
+		$server->register(
+			'EditXMLTH',
+			$editVarTH,
+			array('return'=>'xsd:string')
+			);
+        function EditXMLTH($from_name, $priceVarTH, $thick) {			
+			$xmlStr = file_get_contents('BookStore.xml'); 
+			$xml = new SimpleXMLElement($xmlStr);
 
+			$book = $xml->book;
+			for($j=0;$j<sizeof($book);$j++){
+				foreach ($book[$j] as $key => $value) {
+					if($from_name==$value){
+						$book[$j]->title = $from_name;
+					    $book[$j]->baht = $priceVarTH;
+						$book[$j]->thickness = $thick;
+					}
+						//$book[$j]->addChild('baht',$priceVarTH);
+				}
+			}			
+			$output = $xml->asXML('BookStore.xml');		
+			return "Edit Done ! (from) <b>$from_name</b> (to) ";
+		}
 		// Get our posted data if the service is being consumed
 		// otherwise leave this data blank.
 		$POST_DATA = isset($GLOBALS['HTTP_RAW_POST_DATA']) ? $GLOBALS['HTTP_RAW_POST_DATA'] : '';

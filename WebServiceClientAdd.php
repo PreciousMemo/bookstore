@@ -42,7 +42,10 @@
 			'publish_dateVar'=>$_POST['from_publish_date'],
 			'typeVar'=>$_POST['from_type'],
 			'languageVar'=>$_POST['from_language'],
-			'priceVar'=>$_POST['from_price']
+			'priceVar'=>$_POST['from_price'],
+			'priceVarTH'=>$_POST['from_priceTH'],
+			'thick'=>$_POST['from_t']
+			
 			);
         $data = $client->call("AddXML",$add);		
         echo $data;
@@ -65,6 +68,8 @@
 			<INPUT type="text" name="from_language" size="50" maxlength="100"><br>
 			price:
 			<INPUT type="text" name="from_price" size="50" maxlength="100"><br>
+			<INPUT type="text" name="from_priceTH" size="50" maxlength="100"><br>
+			<INPUT type="text" name="from_t" size="50" maxlength="100"><br>
 			</p>
 			<INPUT type="submit" name="submit_add" value="Submit">
 		</form>
