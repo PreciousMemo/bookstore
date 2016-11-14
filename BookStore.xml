@@ -2,13 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="BookStoreXSLT.xsl"?>
 <bookstore category="new">
 	<book category="computers-technology">
-		<title lang="en">Lua 5.2 Reference Manual</title>
-		<author> Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes </author>
+		<title lang="en">Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes</title>
+		<author>Roberto Ierusalimschy, Luiz Henrique de Figueiredo, Waldemar Celes</author>
 		<publisher> Samurai Media Limited </publisher>
 		<publish_date> 04-11-2015</publish_date>
 		<type> Paperback </type>
 		<language> English </language>
 		<price>$19.99</price>
+		<baht>25</baht>
+		<thickness>25</thickness>
 	</book>
 	<book category="fiction">
 		<title lang="en">A Dance With Dragons: Part 1 Dreams and Dust (A Song of Ice and Fire, Book 5)</title>
@@ -18,7 +20,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price> $7.49 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-technology">
 		<title lang="en">Raspberry Pi 3: A Simple Guide to Help You Get the Most Out of Your Raspberry Pi 3 
 		(Raspberry Pi, Python, Raspberry Pi 2, Perl, Programming, Raspberry Pi 3, Ruby)</title>
@@ -29,7 +31,7 @@
 		<language> English </language>
 		<filesize> 2012 KB </filesize>
 		<price> $2.99 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="travel">
 		<title lang="en"> National Geographic Traveler: Japan, 4th Edition </title>
 		<author> Nicholas Bornoff, Perrin Lindelauf, Ken Shimizu </author>
@@ -38,7 +40,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price> $18.63 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-technology">
 		<title lang="en">Social Media: How to Grow Your Business Rapidly Using These Simple Social Marketing Tips! (Business, Facebook, Twitter, Instagram, Social Media, Growing Business, Successful Business)</title>
 		<author> Gina Powell </author>
@@ -48,7 +50,7 @@
 		<language> English </language>
 		<filesize> 1461 KB </filesize>
 		<price> $2.86 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="fiction">
 		<title lang="en">Take Me With You</title>
 		<author> Catherine Ryan Hyde </author>
@@ -57,7 +59,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price> $6.99 </price>
-	</book>
+	<baht>999</baht><thickness>45</thickness></book>
 	<book category="cookbooks">
 		<title lang="en"> Project Smoke</title>
 		<author> Steven Raichlen </author>
@@ -66,7 +68,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price> $13.86 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="romance">
 		<title lang="en">Wild Man's Curse (Wilds of the Bayou) </title>
 		<author> Susannah Sandlin </author>
@@ -75,7 +77,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price> $6.99 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="fiction">
 		<title lang="en">Harry Potter and the Cursed Child, Parts 1-2, Special Rehearsal Edition Script</title>
 		<author> J.K. Rowling </author>
@@ -84,7 +86,7 @@
 		<type> Hardcover </type>
 		<language> English </language>
 		<price> $17.98 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="psychology">
 		<title lang="en">Handbook of Color Psychology (Cambridge Handbooks in Psychology)</title>
 		<author> Andrew J. Elliot, Mark D. Fairchild, Anna Franklin </author>
@@ -93,7 +95,7 @@
 		<type> Hardcover </type>
 		<language> English </language>
 		<price> $194.00 </price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="Science Fiction and Fantasy">
 		<title lang="en">Nemesis Games</title>
@@ -103,7 +105,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$7.47</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="Science Fiction and Fantasy">
 		<title lang="en">Hunter</title>
@@ -114,7 +116,7 @@
 		<language>English</language>
     <filesize> 2560 KB </filesize>
 		<price>$7.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="Travel">
 		<title lang="en">Lonely Planet Alaska</title>
@@ -124,7 +126,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$16.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="Travel">
 		<title lang="en">Lonely Planet Eastern USA</title>
@@ -134,7 +136,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$17.04</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="cookbook">
 		<title lang="en">Vietnamese Home Cooking</title>
@@ -144,7 +146,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$23.33</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="cookbook">
 		<title lang="en">Japanese Cooking: A Simple Art</title>
@@ -154,7 +156,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$33.49</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="History">
 		<title lang="en">SPQR: A History of Ancient Rome</title>
@@ -164,7 +166,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$14.35</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="History">
 		<title lang="en">The Cold War: A New History</title>
@@ -174,7 +176,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$12.49</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="Education and Teaching">
 		<title lang="en">Python Crash Course: A Hands-On, Project-Based Introduction to Programming</title>
@@ -184,7 +186,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$25.50</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="Education and Teaching">
 		<title lang="en">The Book of R: A First Course in Programming and Statistics</title>
@@ -194,7 +196,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$28.54</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">One Punch Man (Book 1)</title>
 		<author>ONE</author>
@@ -203,7 +205,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price>$7.66</price>
-		</book>
+		<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 	<title lang="en">Tokyo Ghoul (Book 1)</title>
 		<author>Sui Ishida </author>
@@ -212,7 +214,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price>$9.59</price>
-		</book>
+		<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 	<title lang="en">Assassination Classroom, Vol. 1</title>
 		<author>Yusei Matsui </author>
@@ -221,7 +223,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$8.68</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">Is It Wrong to Try to Pick Up Girls in a Dungeon?, Vol. 1</title>
 		<author>Fujino Omori</author>
@@ -230,7 +232,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$9.98</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">My Hero Academia, Vol. 1</title>
 		<author>Kohei Horikoshi </author>
@@ -239,7 +241,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$8.68</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">Attack on Titan 1</title>
 		<author> Hajime Isayama</author>
@@ -248,7 +250,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$7.18</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">All You Need is Kill (manga): 2-in-1 Edition</title>
 		<author> Ryosuke Takeuchi </author>
@@ -257,7 +259,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$12.01</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">Nichijou, 1</title>
 		<author> Keiichi Arawi </author>
@@ -266,7 +268,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$8.26</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">Deadman Wonderland, Vol. 1</title>
 		<author> Jinsei Kataoka </author>
@@ -275,7 +277,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$8.87</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="manga">
 		<title lang="en">Another</title>
 		<author> Yukito Ayatsuji </author>
@@ -284,7 +286,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$21.90</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Cookbooks">
 		<title lang="en">Franklin Barbecue: A Meat-Smoking Manifesto</title>
 		<author>Aaron Franklin , Jordan Mackay</author>
@@ -293,7 +295,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$29.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Science Fiction and Fantasy">
 		<title lang="en">The Dragon Lords: Fool's Gold</title>
 		<author>Jon Hollins</author>
@@ -302,7 +304,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$9.45</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Science Fiction and Fantasy">
 		<title lang="en">The Hobbit and the Lord of the Rings</title>
 		<author>J.R.R. Tolkien</author>
@@ -311,7 +313,7 @@
 		<type>Mass Market Paperback</type>
 		<language>English</language>
 		<price>$35.96</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Business and Money">
 		<title lang="en">Get It Together: Organize Your Records So Your Family Won't Have To</title>
 		<author>Melanie Cullen , Shae Irving J.D.</author>
@@ -320,7 +322,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$24.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Teen and Young Adult">
 		<title lang="en">Dan and Phil Go Outside</title>
 		<author>Dan Howell , Phil Lester</author>
@@ -329,7 +331,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$14.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Sports and Outdoors">
 		<title lang="en">Unbroken (The Young Adult Adaptation): An Olympian's Journey from Airman to Castaway to Captive</title>
 		<author>Laura Hillenbrand</author>
@@ -338,7 +340,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$19.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Christian Books and Bibles">
 		<title lang="en">Youcat</title>
 		<author> Cardinal Christoph Schonborn</author>
@@ -347,7 +349,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$19.95</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Literature and Fiction">
 		<title lang="en">The Nest</title>
 		<author>Cynthia D'Aprix Sweeney</author>
@@ -356,7 +358,7 @@
 		<type>Hardcover</type>
 		<language>English</language>
 		<price>$16.19</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Crafts, Hobbies and Home">
 		<title lang="en">The Handbuilt Home: 34 Simple Stylish and Budget-Friendly Woodworking Projects for Every Room</title>
 		<author>Ana White</author>
@@ -365,7 +367,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$22.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="Home Improvement and Design">
 		<title lang="en">Mini Farming: Self-Sufficiency on 1/4 Acre</title>
 		<author>Brett L. Markham</author>
@@ -375,7 +377,7 @@
 		<language>English</language>
     <filesize> 1435 KB </filesize>
 		<price>$18.95</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en">Stephen Curry: The Inspiring Story of One of Basketball's Sharpest Shooters</title>
 		<author> Clayton Geoffreys</author>
@@ -384,7 +386,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price>$9.64</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en">The Flea - The Amazing Story of Leo Messi</title>
 		<author> Michael Part</author>
@@ -393,7 +395,7 @@
 		<type> Paperback </type>
 		<language> English </language>
 		<price>$7.06</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en">Shoe Dog: A Memoir by the Creator of Nike</title>
 		<author>Phil Knight </author>
@@ -402,7 +404,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$9.15</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en">Strength Training Anatomy</title>
 		<author> Frederic Delavier </author>
@@ -411,7 +413,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$11.19</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en"> The Yoga Bible</title>
 		<author>Christina Brown </author>
@@ -420,7 +422,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$12.42</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en"> Soccer IQ: Things That Smart Players Do</title>
 		<author> Dan Blank</author>
@@ -429,7 +431,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$9.99</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en"> Principles of Athletic Training: A Competency-Based Approach</title>
 		<author> William Prentice </author>
@@ -438,7 +440,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$38.22</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en">The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance</title>
 		<author> W. Timothy Gallwey</author>
@@ -447,7 +449,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$12.95</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en"> Open Andre Agassi</title>
 		<author> Andre Agassi </author>
@@ -456,7 +458,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$11.80</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="sport">
 		<title lang="en">I Think Therefore I Play Andrea Pirlo </title>
 		<author> Andrea Pirlo and Alessandro Alciato</author>
@@ -465,7 +467,7 @@
 		<type>Paperback</type>
 		<language>English</language>
 		<price>$12.86</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 
 	<book category="computers-programming">
 		<title lang="en">Professional ASP.NET 2.0 AJAX		</title>
@@ -475,7 +477,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$39.48</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-programming">
 		<title lang="en">Head First SQL : A Brain-Friendly Guide</title>
 		<author>Lynn Beighley</author>  
@@ -484,7 +486,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$55.52</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-programming">
 		<title lang="en">Java 5 Objects First</title>
 		<author>Barry I.Soroka</author>  
@@ -493,7 +495,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$30.02</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-programming">
 		<title lang="en">Simply Visual Basic. Net An Application-Driven Tutorial Approach +CD</title>	
 		<author>H.M. Deitel,P.J. Deitel,T.R. Nieto</author>  
@@ -502,7 +504,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$23.30</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-programming">
 		<title lang="en">Open-Source Robotics and Process Control Cookbook: Designing and Building Robust, Dependable Real-Time Systems+CD</title>
 		<author>Lewin A.R.W. Edwards</author>  
@@ -511,7 +513,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$47.57</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-programming">
 		<title lang="en">Beginning HTML, XHTML, CSS, and JavaScript</title>
 		<author>Jon Duckett</author>  
@@ -520,7 +522,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$28.65</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-programming">
 		<title lang="en">Learning JQuery 3ED</title>
 		<author>Jonathan Chaffer</author>  
@@ -529,7 +531,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$64.16</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-hardware">
 		<title lang="en">Computer Organization and Architecture : Designing for Performance 9ED +Online Access</title>
 		<author>William Stallings</author>  
@@ -538,7 +540,7 @@
     	<type>art paper</type>
 		<language>English</language>
 		<price>$29.88</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-internet">
 		<title lang="en">The Architecture of Computer Hardware, System Software, and Networking: An Information Technology Approach 4ED	</title>
 		<author>Irv Englander</author>  
@@ -547,7 +549,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$27.97</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="computers-entertainment">
 		<title lang="en">Media Studies : An Introduction</title>
 		<author>Robert Kolker</author>  
@@ -556,7 +558,7 @@
     	<type>bond paper</type>
 		<language>English</language>
 		<price>$46.47</price>
-	</book>
+	<baht>d</baht><thickness>s</thickness></book>
 	<book category="new">
 		<title lang="en">i</title>
 		<author>t</author>
@@ -565,14 +567,6 @@
 		<type>t</type>
 		<language>t</language>
 		<price>t</price>
-	</book>
-	<book>
-		<title lang="en">a</title>
-		<author>a</author>
-		<publisher>a</publisher>
-		<publish_date>a</publish_date>
-		<type>a</type>
-		<language>a</language>
-		<price>a</price>
-	</book>
-</bookstore>
+	<baht>d</baht><thickness>s</thickness></book>
+	
+<book category="new"><title lang="en">k</title><author>g</author><publisher>g</publisher><publish_date>g</publish_date><type>g</type><language>g</language><price>g</price><baht>d</baht><thickness>s</thickness></book><book category="new"><title lang="en">Testtt</title><author/><publisher/><publish_date/><type/><language/><price/><baht>d</baht><thickness>s</thickness></book><book category="new"><title lang="en">sdafsaf</title><author/><publisher/><publish_date/><type/><language/><price/><baht>d</baht><thickness>s</thickness></book><book category="new"><title lang="en">poo</title><author/><publisher/><publish_date/><type/><language/><price/><baht/><thickness/></book></bookstore>
